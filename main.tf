@@ -1,5 +1,5 @@
 # =============================================================================
-# Production MLOps + AIOps Platform on AWS — Boilerplate
+# Production MLOps + AIOps Platform on AWS — Boilerplate for testing auto-arch-diagrams
 # =============================================================================
 # Copy this folder as a starting point for your own project. The included
 # GitHub workflow keeps your architecture diagram, PR comments, and Confluence
