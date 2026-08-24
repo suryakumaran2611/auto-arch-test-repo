@@ -40,7 +40,7 @@ jobs:
       ai_enhance: true
       ai_backend: gemini
       gemini_model: gemini-3.1-flash-lite
-      force_full: ${{ inputs.force_update }}
+      force_full: ${{ inputs.force_update == true }}
     secrets:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -62,7 +62,7 @@ jobs:
       confluence_page_id: ${{ vars.CONFLUENCE_PAGE_ID }}
       ai_backend: gemini
       gemini_model: gemini-3.1-flash-lite
-      force_full: ${{ inputs.force_update }}
+      force_full: ${{ inputs.force_update == true }}
       confluence_replace: true
       confluence_unique_filename: true
     secrets:
