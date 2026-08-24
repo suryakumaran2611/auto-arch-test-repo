@@ -26,7 +26,7 @@ permissions:
 
 jobs:
   diagram:
-    uses: suryakumaran2611/auto-arch-diagram/.github/workflows/reusable-auto-arch-diagram.yml@workflow-fix
+    uses: suryakumaran2611/auto-arch-diagram/.github/workflows/reusable-auto-arch-diagram.yml@main
     with:
       iac_root: .
       out_dir: docs
