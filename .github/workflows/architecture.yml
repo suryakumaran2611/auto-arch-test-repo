@@ -28,6 +28,7 @@ jobs:
   diagram:
     uses: suryakumaran2611/auto-arch-diagram/.github/workflows/reusable-auto-arch-diagram.yml@main
     with:
+      runner: ubuntu-latest
       iac_root: .
       out_dir: docs
       image_formats: png,jpg,svg
@@ -53,6 +54,7 @@ jobs:
     needs: diagram
     uses: suryakumaran2611/auto-arch-diagram/.github/workflows/reusable-auto-arch-diagram.yml@main
     with:
+      runner: ubuntu-latest
       iac_root: .
       out_dir: docs
       image_formats: png,jpg,svg
