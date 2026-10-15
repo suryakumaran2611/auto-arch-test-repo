@@ -24,8 +24,8 @@ provider "aws" {
       Environment = var.environment
       Team        = "ml-platform"
       CostCenter  = "cc-12345"
-      ManagedBy   = "terraform"
-      Owner       = "platform@example.com"
+      ManagedBy   = "SuryaKumaran S"
+      Owner       = "suryakumaran11@gmail.com"
     }
   }
 }
